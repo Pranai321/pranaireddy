@@ -10,14 +10,21 @@ const Header = () => {
 
       {/* <!-- Right column --> */}
       <div class="flex flex-col max-w-2xl space-y-5">
-        <p class="text-slate-300 leading-7">
-          I'm a developer passionate about building scalable, high-performance software that blends thoughtful design with robust engineering. My favorite work lies at the intersection of backend systems and modern front-end frameworks, creating applications that are not only reliable and efficient but also intuitive and engaging for users.
-        </p>
-        <p class="text-slate-300 leading-7">I recently completed my Master of Science in Computer Science at The University of Texas at Arlington, building on my industry experience as a Software Engineer at Tata Elxsi, where I developed mission-critical systems for the transportation industry. My work included designing APIs for automated train control, architecting high-availability data exchange platforms, and modernizing optimization software to improve safety, efficiency, and usability at scale.
-        </p>
-        <p class="text-slate-300 leading-7">
-          Beyond my professional experience, I've built full-stack projects such as DevTinder, a real-time developer networking platform, and NetflixGPT, an AI-powered movie discovery application. These projects reflect my passion for combining cutting-edge technology with practical usability, leveraging tools like React, Node.js, and cloud platforms such as AWS and Azure.
-        </p>
+        <p className="text-slate-300 leading-7">
+    Passionate about building scalable, high‑performance software that blends thoughtful design with robust engineering, focusing on the seam between backend systems and modern front‑end frameworks to deliver reliable, efficient, and intuitive experiences.
+  </p>
+        <p className="text-slate-300 leading-7">
+    Earned an MS in Computer Science at UTA and shipped mission‑critical systems at Tata Elxsi, including APIs for automated train control, high‑availability data exchange platforms, and optimized planning software for safety and usability at scale.
+  </p>
+        <p className="text-slate-300 leading-7">
+    Built full‑stack projects like DevTinder and NetflixGPT using
+    <span className="text-cyan-300 font-medium"> React</span>, 
+    <span className="text-cyan-300 font-medium"> Node.js</span>, 
+    <span className="text-cyan-300 font-medium"> TypeScript</span>, 
+    <span className="text-cyan-300 font-medium"> Express</span>, and cloud on
+    <span className="text-cyan-300 font-medium"> AWS</span> and
+    <span className="text-cyan-300 font-medium"> Azure</span>.
+  </p>
         <p class="text-slate-300 leading-7">
           In my spare time, I enjoy playing cricket, exploring new technologies, and experimenting with side projects that challenge me to grow as both an engineer and a problem solver.
         </p>

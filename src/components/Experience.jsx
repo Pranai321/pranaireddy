@@ -9,7 +9,7 @@ const Experience = () => {
      <ol class="space-y-8">
     {/* <!-- Item --> */}
      <li>
-      <a href="https://upstatement.com" target="_blank" rel="noreferrer"
+      <a href="https://www.linkedin.com/company/medwellsolutions/posts/?feedView=all" target="_blank" rel="noreferrer"
          class="group block rounded-2xl p-6
          bg-transparent ring-1 ring-inset ring-white/5 shadow-none
           transition-shadow duration-200
@@ -26,21 +26,26 @@ const Experience = () => {
         </div>
 
         <h3 class="mt-2 text-lg font-semibold text-slate-200">
-          Lead Engineer · <span class="text-cyan-300">Upstatement</span>
+          Software Engineer  · <span class="text-cyan-300">Medwell Solutions</span>
         </h3>
-        <p class="mt-1 text-sm text-slate-400">Senior Engineer</p>
+        <p class="mt-1 text-sm text-slate-400">Junior Engineer</p>
 
         <p class="mt-4 text-slate-300 leading-7">
-          Build, style, and ship high‑quality websites, design systems, mobile apps, and digital
-          experiences for a diverse array of projects, providing leadership and facilitating collaboration.
+        <span class="text-slate-100 font-semibold">PACE Score Engine</span>: Architected a campaign-wide scoring platform that operationalizes Medwell’s engagement model by transforming diverse, self‑reported activities into auditable, weighted points that drive real‑time leaderboards, funding allocation, and recognition.
+        Delivered a fault‑tolerant <span class="text-cyan-300 font-medium">REST</span> layer in
+        <span class="text-cyan-300 font-medium"> Node.js</span>/<span class="text-cyan-300 font-medium">Express</span> backed by
+        <span class="text-cyan-300 font-medium"> MongoDB</span> with normalized activity schemas and
+        <span class="text-cyan-300 font-medium"> precomputed aggregates</span>, reducing median scoring latency by
+        <span class="text-emerald-300 font-semibold"> 35%</span> while supporting bursty campaign traffic.
         </p>
 
         {/* <!-- Tech chips --> */}
         <div class="mt-5 flex flex-wrap gap-2">
           <span class="rounded-full bg-cyan-500/10 px-2.5 py-1 text-xs text-cyan-300 ring-1 ring-inset ring-cyan-500/20">JavaScript</span>
-          <span class="rounded-full bg-cyan-500/10 px-2.5 py-1 text-xs text-cyan-300 ring-1 ring-inset ring-cyan-500/20">TypeScript</span>
+          <span class="rounded-full bg-cyan-500/10 px-2.5 py-1 text-xs text-cyan-300 ring-1 ring-inset ring-cyan-500/20">MongoDB</span>
           <span class="rounded-full bg-cyan-500/10 px-2.5 py-1 text-xs text-cyan-300 ring-1 ring-inset ring-cyan-500/20">React</span>
-          <span class="rounded-full bg-cyan-500/10 px-2.5 py-1 text-xs text-cyan-300 ring-1 ring-inset ring-cyan-500/20">Storybook</span>
+          <span class="rounded-full bg-cyan-500/10 px-2.5 py-1 text-xs text-cyan-300 ring-1 ring-inset ring-cyan-500/20">Express.js</span>
+          <span class="rounded-full bg-cyan-500/10 px-2.5 py-1 text-xs text-cyan-300 ring-1 ring-inset ring-cyan-500/20">REST API's</span>
         </div>
       </a>
     </li>
