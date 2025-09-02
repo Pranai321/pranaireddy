@@ -1,4 +1,4 @@
-import feed from "../utils/feed.png"
+import feed from "../assets/feed.png"
 const Projects=()=> {
   const items = [
     {
