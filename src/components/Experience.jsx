@@ -1,5 +1,5 @@
 import React from 'react'
-
+import pdf from '../utils/PranaiSaiReddyKalva.pdf'
 const Experience = () => {
   return (
     <div className ="min-h-screen">
@@ -57,7 +57,7 @@ const Experience = () => {
          hover:bg-white/[0.04] hover:ring-white/15 hover:shadow-xl hover:shadow-cyan-500/10
          focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60">
         <div class="flex items-start justify-between text-xs text-slate-400">
-          <span>2018 — 2024</span>
+          <span>2021 — 2023</span>
           <span class="inline-flex items-center gap-1 text-cyan-300/80 opacity-0 transition-opacity group-hover:opacity-100">
             Open
             <svg class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -67,14 +67,11 @@ const Experience = () => {
         </div>
 
         <h3 class="mt-2 text-lg font-semibold text-slate-200">
-          Lead Engineer · <span class="text-cyan-300">Upstatement</span>
+          Software Engineer · <span class="text-cyan-300">TATA Elxsi</span>
         </h3>
-        <p class="mt-1 text-sm text-slate-400">Senior Engineer</p>
+        <p class="mt-1 text-sm text-slate-400">Junior Engineer</p>
 
-        <p class="mt-4 text-slate-300 leading-7">
-          Build, style, and ship high‑quality websites, design systems, mobile apps, and digital
-          experiences for a diverse array of projects, providing leadership and facilitating collaboration.
-        </p>
+        <p class="mt-6 text-slate-200 font-semibold">Automatic Train Operation (ATO)</p> <p class="text-slate-300 leading-7"> Designed REST APIs to automate train control, boosting safety and efficiency; built scalable services with <span class="text-cyan-300 font-medium">Node.js</span>, <span class="text-cyan-300 font-medium">Express.js</span>, and <span class="text-cyan-300 font-medium">PostgreSQL</span>, cutting median latency by 35%. Secured internal comms with <span class="text-cyan-300 font-medium">JWT</span> and standardized releases with <span class="text-cyan-300 font-medium">Docker</span> and optimized <span class="text-cyan-300 font-medium">CI/CD</span> (+40% release velocity). </p> <p class="mt-5 text-slate-200 font-semibold">Locomotive Exchange Application (LXA)</p> <p class="text-slate-300 leading-7"> Delivered a high‑availability data exchange layer (99.9% uptime) using real‑time microservices on <span class="text-cyan-300 font-medium">Node.js</span> with <span class="text-cyan-300 font-medium">Apache Kafka</span> and <span class="text-cyan-300 font-medium">Redis Pub/Sub</span>; implemented high‑throughput storage on <span class="text-cyan-300 font-medium">MongoDB</span> and enforced <span class="text-cyan-300 font-medium">rate‑limiting</span> middleware for API resilience and security. </p> <p class="mt-5 text-slate-200 font-semibold">Trip Optimizer</p> <p class="text-slate-300 leading-7"> Modernized optimization stack with <span class="text-cyan-300 font-medium">TypeScript</span> and modern <span class="text-cyan-300 font-medium">JavaScript</span> (‑50% bugs); migrated monitoring to <span class="text-cyan-300 font-medium">React.js</span> with <span class="text-cyan-300 font-medium">Chart.js</span> visualizations (+30% diagnostic efficiency); tuned <span class="text-cyan-300 font-medium">SQL</span> and <span class="text-cyan-300 font-medium">NoSQL</span> queries for ~2× faster reads. </p>
 
         {/* <!-- Tech chips --> */}
         <div class="mt-5 flex flex-wrap gap-2">
@@ -87,7 +84,7 @@ const Experience = () => {
     </li>
 
     <a
-        href="/resume/Pranai_Sai_Reddy_Kalva_Resume.pdf"
+        href={pdf}
         target="_blank"
         rel="noreferrer"
         className="group inline-flex items-center gap-2 text-slate-200 font-medium

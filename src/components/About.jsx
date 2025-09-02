@@ -18,7 +18,7 @@ export default function About({ active, onNav }) {
         <div className="mt-16 flex items-center gap-6">
           {/* GitHub */}
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/Pranai321"
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub"
@@ -35,7 +35,7 @@ export default function About({ active, onNav }) {
 
           {/* LinkedIn */}
           <a
-            href="https://www.linkedin.com/in/your-username"
+            href="https://www.linkedin.com/in/pranaireddykalva/"
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"
@@ -52,7 +52,7 @@ export default function About({ active, onNav }) {
 
           {/* LeetCode */}
           <a
-            href="https://leetcode.com/your-username"
+            href="https://leetcode.com/u/pranaisaireddy/"
             target="_blank"
             rel="noreferrer"
             aria-label="LeetCode"
