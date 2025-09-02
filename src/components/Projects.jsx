@@ -1,11 +1,11 @@
-import feed from "../assets/feed.png"
+// import feed from "../assets/feed.png"
 const Projects=()=> {
   const items = [
     {
       title: "DevTinder",
-      shortDesc: "Developer matchmaking for help and collaboration",
+      shortDesc: "Developer matchmaking for help and collaborations",
       href: "https://example.com/spotify-profile",
-      img: feed,
+      img: "../assets/feed.png",
       descPoints:
         [
   "Connects builders by intent—post a need, match with complementary skills, and start shipping.",
