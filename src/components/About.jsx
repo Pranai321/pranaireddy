@@ -7,9 +7,9 @@ export default function About({ active, onNav }) {
         <h1 className="text-5xl md:text-4xl font-bold tracking-tight text-slate-100">
           Pranai Sai Reddy Kalva
         </h1>
-        <p className="mt-3 text-xl font-medium text-slate-300">Front End Engineer</p>
+        <p className="mt-3 text-xl font-medium text-slate-300">Full-Stack Engineer</p>
         <p className="mt-4 text-slate-400">
-          I build accessible, pixel-perfect digital experiences for the web.
+          I build scalable, full-stack web applications with a focus on performance and creating seamless, pixel-perfect user experiences..
         </p>
 
         <AboutNav active={active} onNav={onNav} />

@@ -17,14 +17,27 @@ export default function Body() {
 
   return (
     <div className="min-h-screen bg-slate-900 text-slate-200">
-      <div className="grid gap-8 px-4 lg:px-6 mx-auto max-w-none lg:grid-cols-[50vw_minmax(0,1fr)]">
-        {/* Left: sticky half, About + nav */}
-        <aside className="sticky top-0 h-screen">
+      {/* 
+        Responsive Grid with specific column setup for large screens.
+        - `lg:grid-cols-2` creates two equal columns.
+        - Responsive padding (`px-`) keeps content from touching edges.
+      */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 sm:px-12 md:px-20 lg:px-24">
+        
+        {/* 
+          Left Column (Aside):
+          - Vertically centers its content within the screen height on large screens.
+        */}
+        <aside className="lg:sticky lg:top-0 lg:h-screen lg:flex lg:flex-col lg:justify-center py-12 lg:py-0">
           <About active={active} onNav={handleNav} />
         </aside>
 
-        {/* Right: readable measure; sections with ids */}
-        <main className="justify-self-end w-full max-w-[44rem]">
+        {/* 
+          Right Column (Main):
+          - `lg:pl-16` adds padding on the left for large screens to push the content
+            away from the center, achieving the desired off-center alignment.
+        */}
+        <main className="w-full py-12 lg:py-24 lg:pl-16">
           <section id="about" className="scroll-mt-24">
             <Header />
           </section>
