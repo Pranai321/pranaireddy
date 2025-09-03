@@ -19,7 +19,7 @@ const Projects = () => {
     },
     {
       title: "NetflixGPT",
-      href: "https://example.com/halcyon",
+      href: "https://github.com/Pranai321/netflixGPT",
       img: netflixgpt,
       shortDesc: "A GPT-powered movie platform for seamless searching with natural language queries.",
       descPoints: [
