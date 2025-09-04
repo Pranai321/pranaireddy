@@ -50,7 +50,7 @@ const Experience = () => {
       </a>
     </li>
     <li>
-      <a href="https://upstatement.com" target="_blank" rel="noreferrer"
+      <a href="https://www.linkedin.com/company/tataelxsi/posts/?feedView=all" target="_blank" rel="noreferrer"
          class="group block rounded-2xl p-6
          bg-transparent ring-1 ring-inset ring-white/5 shadow-none
           transition-shadow duration-200
